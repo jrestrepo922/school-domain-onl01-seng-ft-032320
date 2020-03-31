@@ -37,7 +37,7 @@ class School
   @roster.each { |grade, student_name|
     ordered_roster[grade] = student_name.sort
   }
-  @roster = ordered_roster
+  ordered_roster
  end 
 end
 
