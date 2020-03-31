@@ -28,7 +28,13 @@ class School
   end
  end
  
- def grade 
+ def grade(grade)
+  @roster.values_at(grade).flatten
+ end 
+
+ def Sort 
+
+ end 
 end
 
 
